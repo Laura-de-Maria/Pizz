@@ -4,16 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Restaurantly Bootstrap Template</title>
-  
+  <title>Re Mida Restaurant</title>
+
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://i.ibb.co/cLGfBPP/icons8-pizza-16-1.png" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,13 +35,14 @@
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a
+              href="mailto:contact@example.com">contact@example.com</a></i>
           <i class="bi bi-phone d-flex align-items-center ms-4"><span>+39 3497952307</span></i>
         </div>
         <div class="languages d-none d-md-flex align-items-center">
           <ul>
-            <li>En</li>
-            <li><a href="#">De</a></li>
+            <li>IT</li>
+            <li><a href="#">EN</a></li> <!-- aggiungere file con pag tradotta -->
           </ul>
         </div>
       </div>
@@ -49,16 +52,15 @@
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-           <img src="assets/img/logo.png" alt=""> 
-          <h1 class="sitename">Restaurantly</h1>
+          <img src="https://i.ibb.co/w76QyLV/Menu-Logo-trasp.png" alt="Menu-Logo-trasp">
+          <h1 class="sitename">Re Mida</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="#hero" class="active">Home<br></a></li>
             <li><a href="#menu">Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Contatti</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -71,15 +73,15 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <img src="https://i.ibb.co/9TXpBBr/pizza-napoletana-sfiziosa-jakfv85pbyjshcv9.jpg" alt="" data-aos="fade-in">
 
       <div class="container">
         <div class="row">
           <div class="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
-            <h2 data-aos="fade-up" data-aos-delay="100">Welcome to <span>Restaurantly</span></h2>
-            <p data-aos="fade-up" data-aos-delay="200">Delivering great food for more than 18 years!</p>
+            <h2 data-aos="fade-up" data-aos-delay="100">Benvenuti al <span>Re Mida</span></h2>
+            <p data-aos="fade-up" data-aos-delay="200">Scopri il nostro menù!</p>
             <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-              <a href="#menu" class="cta-btn">Our Menu</a>
+              <a href="#menu" class="cta-btn">Menù</a>
             </div>
           </div>
         </div>
@@ -88,6 +90,7 @@
     </section>
 
     </section>
+
 
     <!-- Menu Section -->
     <section id="menu" class="menu section">
@@ -95,131 +98,1081 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Menu</h2>
-        <p>Check Our Tasty Menu</p>
-      </div><!-- End Section Title -->
+        <p>Prova il nostro menù!</p>
+      </div>
+      <!-- End Section Title -->
 
-      <div class="container isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
+      <div class="container isotope-layout" data-default-filter=".filter-antipasti" data-layout="masonry"
+        data-sort="original-order">
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul class="menu-filters isotope-filters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-starters">Starters</li>
-              <li data-filter=".filter-salads">Salads</li>
-              <li data-filter=".filter-specialty">Specialty</li>
+              <li data-filter=".filter-antipasti" class="filter-active">Menu Antipasto</li>
+              <li data-filter=".filter-pizze">Pizze</li>
+              <li data-filter=".filter-pizzeGourmet">Pizze Gourmet</li>
+              <li data-filter=".filter-bevande">Bevande</li>
             </ul>
           </div>
         </div>
-        <!-- Menu Filters -->
 
-        <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Lobster Bisque</a><span>$5.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
+        <!-- MENU ANTIPASTI-->
+        <div class="menu-section filter-antipasti">
+          <h5>Antipasti</h5>
+          <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Bread Barrel</a><span>$6.95</span>
+            <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+              <div class="menu-content">
+                <a href="#">Tagliere di Salumi</a><span>€ 12.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Charcuterie Board
+              </div>
             </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
+            <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+              <div class="menu-content">
+                <a href="#">Tagliere di Formaggi</a><span>€ 10.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Cheese Board
+              </div>
             </div>
-            <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
-            </div>
-          </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
+            <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+              <div class="menu-content">
+                <a href="#">Carpaccio di Manzo</a><span>€ 10.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Thin slices of raw beef
+              </div>
             </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+            <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+              <div class="menu-content">
+                <a href="#">Carpaccio di Manzo Stracciatella e Granella di Pistacchio</a><span>€ 12.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Thin slices of raw beef with stracciatella cheese and pistachio crumbs
+              </div>
             </div>
-            <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
-            </div>
-          </div><!-- Menu Item -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+            <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+              <div class="menu-content">
+                <a href="#">Tartara di Manzo</a><span>€ 12.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Beef Tartare
+              </div>
             </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
+          </div>
+          <!-- FINE Antipasto / Appetizers -->
 
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach, crisp romaine, tomatoes, and Greek olives
-            </div>
-          </div><!-- Menu Item -->
+          <!-- GRILL  -->
+          <div class="menu-section filter-antipasti">
+            <h5>Grill</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
-            </div>
-          </div><!-- Menu Item -->
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="">Beef Steak</a><span>€ 50.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Grilled beef steak, served by the kilo
+                </div>
+              </div>
 
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
-            </div>
-          </div><!-- Menu Item -->
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Tagliata di Manzo Rucola e Grana</a><span>€ 16.00 (250gr)</span>
+                </div>
+                <div class="menu-ingredients">
+                  Sliced beef with arugula and Grana cheese
+                </div>
+              </div>
 
-        </div><!-- Menu Container -->
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Tagliata di Manzo con Pomodorini Secchi e Caciocavallo stagionato in grotta</a><span>€
+                    16.00
+                    (250gr)</span>
+                </div>
+                <div class="menu-ingredients">
+                  Sliced beef with sun-dried tomatoes and cave-aged ciocavallo cheese
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Tagliata di Manzo con Crema di Pistacchio e Burrata</a><span>€ 18.00 (250gr)</span>
+                </div>
+                <div class="menu-ingredients">
+                  Sliced beef with pistachio cream and Burrata cheese
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Tagliata di Pollo Rucola e Grana</a><span>€ 15.00 (250gr)</span>
+                </div>
+                <div class="menu-ingredients">
+                  Chicken tagliata with arugula and Grana cheese
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FINE Grill -->
+
+          <!-- inizio HAMBURGER AL PIATTO --->
+
+          <div class="menu-section filter-antipasti">
+            <h5>Hamburger* al piatto</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="">Hamburger Pistacchioso</a><span>€ 6.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Burrata e crema di Pistacchio
+                  Burrata cheese and pistachio cream
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Hamburger Cacio e Pepe</a><span>€ 6.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  BACON CROCCANTE E CREMA DI CACIO E PEPE
+                  CRUNCHY BACON AND CACIO E PEPE CREAM
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- FINE HAMBURGER AL PIATTO --->
+
+          <!-- Inizio contorni  -->
+          <div class="menu-section filter-antipasti">
+            <h5>Contorni</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="">Verdure Grigliate</a><span>€ 6.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Grilled vegetables
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Insalatona in Coppa di Pane</a><span>€ 10.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Seafood salad in a bread bowl
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FINE contorni -->
+
+          <!-- Stuzzicheria  -->
+          <div class="menu-section filter-antipasti">
+            <h5>Stuzzicheria</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="">Straccetti di Pasta Fritta Rucola e Grana</a><span>€ 50.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Strips of fried pasta with arugula and Grana cheese
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Patatine Fritte</a><span>€ 4.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  French fries
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Sweet Patato</a><span>€ 5.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Sweet potato fries
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Pettoline</a><span>€ 5.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Small fried dough balls
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Anellini di Cipolla</a><span>€ 5.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Onion rings
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Polpette Pistacchiose</a><span>€ 10.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Pistachio meatballs
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Polpette Cacio e Pepe</a><span>€ 10.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Cacio and pepper meatballs
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Jalapeño</a><span>€ 7.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Fried jalapeños
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FINE stuzzicheria -->
+
+          <!-- Inizio DESSERT  -->
+          <div class="menu-section filter-antipasti">
+            <h5>Dessert</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="">Dessert</a><span>€ 5.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  Various desserts
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="#">Servizio al tavolo</a><span>€ 2.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  table service
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FINE DESSERT -->
+
+
+          <!-- Inizio SERATE  -->
+          <div class="menu-section filter-antipasti">
+            <h5>Serate con servizio musicale</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6 menu-item isotope-item filter-antipasti">
+                <div class="menu-content">
+                  <a href="">Servizio al tavolo</a><span>€ 3.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  table service
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FINE SERATE -->
+
+
+        </div>
+        <!-- FINE MENU ANTIPASTI-->
+
+        <!-- MENU PIZZE-->
+        <div class="menu-section filter-pizze">
+          <h5>Pizze Rosse</h5>
+          <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Marinara</a><span>€ 4.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, aglio, origano, olio evo)
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Ciccio</a><span>€ 3.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Sale, origano, olio evo)
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Margherita</a><span>€ 6.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, olio evo)
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Napoli</a><span>€ 7.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, acciughe, origano, olio evo)
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Diavola</a><span>€ 7.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, salame piccante, olio evo)
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Würstel</a><span>€ 7.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, würstel, olio evo)
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Cotto</a><span>€ 7.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, prosciutto cotto, olio evo)
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Tonno e cipolla</a><span>€ 8.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, tonno, cipolla, olio evo)
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Quattro stagioni</a><span>€ 8.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive, olio evo)
+
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Capricciosa</a><span>€ 8.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, prosciutto cotto, funghi, olive, salame piccante, olio evo)
+
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">San Daniele</a><span>€ 8.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, prosciutto crudo, olio evo)
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Principessa</a><span>€ 9.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, prosciutto crudo, panna, olio evo)
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Valtellina</a><span>€ 9.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, bresaola, rucola, grana, olio evo)
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Ortolana</a><span>€ 8.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, melanzane, zucchine, peperoni, olio evo)
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item isotope-item filter-pizze">
+              <div class="menu-content">
+                <a href="#">Bufala</a><span>€ 8.00</span>
+              </div>
+              <div class="menu-ingredients">
+                (Pomodoro, mozzarella, bufala, olio evo)
+              </div>
+            </div>
+          </div>
+          <!-- FINE Pizze rosse -->
+
+          <!-- Pizze bianche  -->
+          <div class="menu-section filter-pizze">
+            <h5>Pizze bianche</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="">Caprese</a><span>€ 6.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, pomodorini, origano, olio evo)
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Limone</a><span>€ 7.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, prosciutto cotto, insalata, limone, olio evo)
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Gamberetti e zucchine</a><span>€ 8.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, gamberetti*, zucchine, pan grattato, olio evo)
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Salsiccia fresca</a><span>€ 8.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, salsiccia fresca, rucola, grana, olio evo)
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Fume’</a><span>€ 8.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, speck, scamorza affumicata, olio evo)
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Salmone</a><span>€ 8.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, salmone, panna, olio evo)
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Quattro formaggi</a><span>€ 8.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, fontina, emmental, gorgonzola, olio evo)
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Crudaiola</a><span>€ 9.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, pomodorini, rucola, prosciutto crudo,grana, olio evo)
+
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Kebab</a><span>€ 9.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, kebab*, funghi, cipolla, grana, olio evo)
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Re mida</a><span>€ 9.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, mortadella, stracciatella, granella di pistacchio, crema di pistacchio, olio evo)
+
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Diavola pistacchiosa</a><span>€ 9.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, salame piccante, stracciatella, granella di pistacchio, crema di pistacchio, olio evo)
+
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Capocollo</a><span>€ 10.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, capocollo, datterino giallo, bufala in uscita, olio evo)
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Braccio di ferro</a><span>€ 12.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Bordo ripieno di stracciatella, mozzarella, bufala, capocollo di martina franca, pomodorini, rucola,
+                  grana, olio evo)
+
+                </div>
+              </div>
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Salsiccia fresca</a><span>€ 8.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  (Mozzarella, salsiccia fresca, rucola, grana, olio evo)
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FINE Pizze-->
+
+          <!-- inizio AGGIUNTA INGREDIENTI --->
+
+          <div class="menu-section filter-pizze">
+            <h5>AGGIUNTA INGREDIENTI</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="">Aggiunte</a><span>€ 1.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Bufala</a><span>€ 1.50</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Mozzarella senza lattosio</a><span>€ 2.00</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- FINE AGGIUNTA INGREDIENTI --->
+
+          <!-- Inizio CREA LA TUA PUCCIA...  -->
+          <div class="menu-section filter-pizze">
+            <h5>CREA LA TUA PUCCIA...</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+              
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="">Puccia con salumi</a><span>€ 6.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Puccia con carne</a><span>€ 8.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Puccia con polpo</a><span>€ 12.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  1-(polpo, burrata, pomodori secchi, insalata, granella di pistacchio)
+
+                </div>
+                <div class="menu-ingredients">
+
+                  2-(polpo, rucola, melanzane grigliate, caciocavallo in grotta, crema di rape)
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Patatine fritte*</a><span>€ 4.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Patate dolci*</a><span>€ 4.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Consegna a domicilio</a><span>€ 2.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Impasto farina di kamut</a><span>€ 2.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="#">Servizio al tavolo</a><span>€ 3.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FINE CREA LA TUA PUCCIA... -->
+
+          <!-- Inizio SERATE  -->
+          <div class="menu-section filter-pizze">
+            <h5>Serate con servizio musicale</h5>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6 menu-item isotope-item filter-pizze">
+                <div class="menu-content">
+                  <a href="">Servizio al tavolo</a><span>€ 3.00</span>
+                </div>
+                <div class="menu-ingredients">
+                  table service
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FINE MENU PIZZE-->
+
+        <!-- MENU PIZZE GOURMET-->
+        <div class="menu-section filter-pizzeGourmet">
+          <h5>Pizze Rosse Gourmet</h5>
+          <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">The Blondes</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Bordo ripieno salsiccia fresca e caciocavallo di grotta, pomodoro, mozzarella, datterino giallo,
+                guanciale croccante, burratina
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Tommy</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Pomodoro, mozzarella, crema di zucca, porcini, gorgonzola, dopo cottura guanciale croccante
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">La Calabrese</a><span>€ 11.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Pomodoro, salsiccia piccante, crema di nduja, burrata, pomodoro secco, rucola, olio EVO
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">La Cantabrica</a><span>€ 13.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Pomodoro, mozzarella, alici del Cantabrico, burrata, pomodorini secchi, olio EVO
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="menu-section filter-pizzeGourmet">
+          <h5>Pizze Bianche Gourmet</h5>
+          <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Francy</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella, Caciocavallo di grotta, dopo cottura capocollo, pomodoro secco e burratina all’nduja
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Peppino</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella, funghi porcini, dopo cottura capocollo, stracciatella e noci
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Manu</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella, friarielli, salsiccia fresca, pomodorini, dopo cottura bufala e tarallo sbriciolato
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Cacio e Zucchine</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella, dopo cottura zucchine scapece, cacio a scaglie, datterino giallo, menta e olio EVO
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Lucky</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella, salame piccante, funghi trifolati, dopo cottura pomodoro crusco e scaglie di caciocavallo di
+                grotta
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Arriccia</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella di bufala, porchetta di Arriccia, dopo cottura bufala e basilico
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Rosy</a><span>€ 00.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella di bufala, carpaccio di bufala, bocconcini di bufala, rucola e scaglie di grana
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Zuccosa</a><span>€ 10.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella, prosciutto crudo, crema di zucca, burrata, olio EVO
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Violetta</a><span>€ 10.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella, speck, scamorza affumicata, crema di radicchio, olio EVO
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-pizzeGourmet">
+              <div class="menu-content">
+                <a href="#">Guanciale, Cacio e Pepe</a><span>€ 10.00</span>
+              </div>
+              <div class="menu-ingredients">
+                Mozzarella, guanciale, datterino giallo, rucola, crema di cacio e pepe, olio EVO
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FINE MENU PIZZE GOURMET-->
+
+
+        <!-- MENU BEVANDE-->
+
+        <!-- inizio birre in bottiglia -->
+        <div class="menu-section filter-bevande">
+          <h5>Birre in Bottiglia</h5>
+          <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-6 menu-item isotope-item filter-bevande">
+              <div class="menu-content">
+                <a href="#">Nastro</a><span>33cl € 2.00</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-bevande">
+              <div class="menu-content">
+                <a href="#">Menabrea bionda</a><span>33cl € 3.00</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-bevande">
+              <div class="menu-content">
+                <a href="#">Menabre rossa</a><span>33cl € 3.50</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-bevande">
+              <div class="menu-content">
+                <a href="#">Heineken “0.0”</a><span>33cl € 2.50</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-bevande">
+              <div class="menu-content">
+                <a href="#">Peroni chill</a><span>33cl € 2.50</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-bevande">
+              <div class="menu-content">
+                <a href="#">Peroni stile Capri</a><span>33cl € 3.00</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-bevande">
+              <div class="menu-content">
+                <a href="#">Ichnusa</a><span>50cl € 4.00</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item isotope-item filter-bevande">
+              <div class="menu-content">
+                <a href="#">Agricola artigianale</a><span>33cl € 3.50</span>
+              </div>
+            </div>
+
+          </div>
+          <!-- FINE birra in bottiglia -->
+
+          <!-- Bevande Analcoliche  -->
+          <div class="menu-section filter-bevande">
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+              <h5>Bevande Analcoliche</h5>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="">Acqua Naturale/Frizzante</a><span>50CL € 1.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Acqua Naturale/Frizzante</a><span>1L € 2.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Lattina Fanta</a><span>33CL € 2.50</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Lattina Coca-Cola</a><span>33CL € 2.50</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Lattina Coca-Cola zero</a><span>33CL € 2.50</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Lattina Coca-Cola zero</a><span>33CL € 2.50</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Aperitivi in bottiglia</a><span>€ 2.50</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Redbull</a><span>€ 3.00</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Thè al limone</a><span>€ 2.50</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Thè alla pesca</a><span>€ 2.50</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="#">Succhi di frutta</a><span>€ 2.00</span>
+                </div>
+              </div>
+
+            </div>
+            
+            <!-- Bevande bevande Analcoliche  -->
+            
+            <!-- inizio bevande alcoliche --->
+            
+            <div class="menu-section filter-bevande">
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <h5>Bevande Alcoliche</h5>
+                
+                <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                  <div class="menu-content">
+                    <a href="">Zacapa X0</a><span>€ 14.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="menu-section filter-bevande">
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <h5>RHUM</h5>
+                
+                <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                  <div class="menu-content">
+                    <a href="">Don Papa</a><span>€ 4.00</span>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                  <div class="menu-content">
+                    <a href="">Diplomatico</a><span>€ 4.00</span>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                  <div class="menu-content">
+                    <a href="">Grappe</a><span>€ 3.00</span>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                  <div class="menu-content">
+                    <a href="">Amari & Liquori</a><span>€ 2.50</span>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                  <div class="menu-content">
+                    <a href="">Whisky</a><span>€ 4.00</span>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <div class="menu-section filter-bevande"></div>
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+              <h5>Vodka</h5>
+              
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="">Keglevich</a><span>€ 3.00</span>
+                </div>
+              </div>
+              
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="">Belvedere</a><span>€ 4.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- inizio COCKTAIL -->
+          <div class="menu-section filter-bevande">
+            <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+              <h5>Cocktail</h5>
+              
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="">Cocktail alcolici</a><span>€ 5.00</span>
+                </div>
+              </div>
+              
+              <div class="col-lg-6 menu-item isotope-item filter-bevande">
+                <div class="menu-content">
+                  <a href="">Cocktail analcolici</a><span>€ 5.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FINE COCKTAIL -->
+
+        <!-- FINE BEVANDE --->
+
       </div>
     </section>
-   
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
+        <h2></h2>
+        <p>Contattaci</p>
       </div><!-- End Section Title -->
 
       <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe style="border:0; width: 100%; height: 400px;"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.071162755633!2d16.92518877574859!3d40.47369065217101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134712c4cd54bba5%3A0x23e346b3c7181190!2sVia%20Aldrin%2C%2020%2C%2074011%20Castellaneta%20Marina%20TA!5e0!3m2!1sit!2sit!4v1725971774039!5m2!1sit!2si"></iframe>
       </div><!-- End Google Maps -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -230,40 +1183,23 @@
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Location</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3>Ci troviamo in...</h3>
+                <p>Via Aldrin, 20, 74011 Castellaneta Marina TA</p>
               </div>
             </div><!-- End Info Item -->
-
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
-                <h3>Open Hours</h3>
-                <p>Monday-Saturday:<br>11:00 AM - 2300 PM</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <h3>Chiamaci per prenotare il tuo posto!</h3>
+                <p>+39 3497952307</p>
               </div>
             </div><!-- End Info Item -->
 
           </div>
-            
-          </div>
-          
+
         </div>
+
+      </div>
 
     </section>
 
@@ -274,10 +1210,9 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Restaurantly</span>
+            <span class="sitename">Re Mida Social</span>
           </a>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
@@ -285,18 +1220,12 @@
         </div>
       </div>
     </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Restaurantly</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
   </footer>
 
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
