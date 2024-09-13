@@ -467,8 +467,8 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: /*var(--accent-color)*/ yellow;
+  border-color: /*var(--accent-color)*/rgb(255, 6, 89);
 }
 
 .footer h4 {
